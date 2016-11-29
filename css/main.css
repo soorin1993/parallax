@@ -1,0 +1,120 @@
+body {
+	background-color: #201856;
+	margin: 0;
+	padding: 0;
+}
+
+.parallax {
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 30px;
+}
+
+.parallax-layer img {
+	width: 100vw;
+	position: absolute;
+}
+
+.parallax-layer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-top: 50vh;
+}
+
+#circle {
+	border-radius: 50%;
+    display: block;
+	margin: auto;
+    width: 30vw;
+    height: 30vw;
+    background: #ff4545;
+   	transform: translateZ(-3px) scale(4);
+/*     box-shadow: 30px 30px 150px 0 #ff9945, -30px -30px 150px 0 #ff9945, 30px -30px 150px 0 #ff9945, -30px 30px 150px 0 #ff9945; */
+}
+
+.parallax-0 {
+	z-index: 1;
+	transform: translateZ(-1px) scale(2);
+}
+
+.parallax-1 {
+	z-index: 3;
+	transform: translateZ(-2px) scale(3);
+}
+
+.parallax-2 {
+	z-index: 5;
+	transform: translateZ(-3px) scale(4);
+}
+
+.parallax-3 {
+	z-index: 7;
+	transform: translateZ(-4px) scale(5);
+}
+
+.parallax-4 {
+	z-index: 0;
+	transform: translateZ(-5px) scale(6);
+}
+
+.parallax-5 {
+	transform: translateZ(-3px) scale(4);
+}
+
+.parallax {
+	background: linear-gradient(to bottom, #201856 0%, #f76e2e 20%, #ffe37f 50%, #5f858d 100%);
+}
+
+p {
+	position: absolute;
+	color: #201856;
+}
+
+#text1 {
+	margin-top: 120px;
+	right: 200px;
+	z-index: 2;
+}
+
+#text2 {
+	margin-top: 120px;
+	left: 250px;
+	z-index: 4;
+}
+
+#text3 {
+	margin-top: 200px;
+	left: 400px;
+	z-index: 6;
+}
+
+#text4 {
+	margin-top: 300px;
+	left: 50vw;
+	z-index: 8;
+}
+
+.parallax-tree img {
+	position: absolute;
+	width: 30vw;
+
+}
+
+.parallax-tree {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 100vh 0;
+}
+
+#tree1 {
+	margin-left: -300px;
+}
