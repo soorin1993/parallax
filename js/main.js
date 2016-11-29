@@ -35,7 +35,7 @@ $(".parallax").scroll(function() {
 		$('#text3').fadeOut();
 	}
 	
-	if (y >= 1100) {
+	if (y >= 1400) {
 		$('#text4').fadeIn();
 	} 
 	else {
