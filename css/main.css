@@ -87,7 +87,7 @@ body {
 }
 
 .parallax-8 {
-	z-index: 11;
+	z-index: 10;
 	transform: translateZ(-0.9px) scale(1.9);
 }
 
@@ -169,8 +169,8 @@ p {
 
 #fox {
 	width: 10vw;
-	margin-top: 75vw;
-	margin-left: 60vw;
+	margin-top: 77vw;
+	margin-left: 70vw;
 }
 .parallax-8 a {
 	position: absolute;
